@@ -276,6 +276,10 @@ a {
   scroll-snap-align: start;
   border: 1px solid var(--line);
   display: flex;
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  align-items: center;     /* Centra las tarjetas verticalmente (si es necesario) */
+  flex-wrap: wrap;         /* Permite que bajen de línea si no caben */
+  gap: 20px;              /* Espacio entre tarjetas */
   flex-direction: column;
   background: var(--bg);
 }
