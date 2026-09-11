@@ -3,7 +3,8 @@
   --navy: #1f3a5f;
   --muted: #5c6570;
   --line: #d7dbe1;
-  --bg: #ffffff;
+  --bg: #f8f9fb;
+  --surface: #eef1f5;
   --accent: #7b2d26;
   --max-width: 860px;
 }
@@ -45,7 +46,7 @@ a {
 .topbar {
   position: sticky;
   top: 0;
-  background: var(--bg);
+  background: var(--surface);
   z-index: 10;
   border-bottom: 1px dashed var(--line);
 }
@@ -437,7 +438,7 @@ a {
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--bg);
+    background: var(--surface);
     border-bottom: 1px dashed var(--line);
     flex-direction: column;
     gap: 0;
