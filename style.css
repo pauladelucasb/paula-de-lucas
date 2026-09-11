@@ -156,17 +156,18 @@ a {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   margin-top: 40px;
 }
 
 .card {
+   grid-template-columns: repeat(2, 1fr);
   border-top: 2px solid var(--accent);
   padding-top: 18px;
 }
 
 .card h3 {
+   grid-template-columns: repeat(2, 1fr);
   font-size: 1.15rem;
   font-weight: 600;
   color: var(--accent);
