@@ -59,10 +59,7 @@ Si en el futuro quieres añadir un apartado más (por ejemplo, "News"):
 
 ## Cómo publicarlo en GitHub Pages
 
-1. Crea un repositorio nuevo en GitHub, por ejemplo `paula.github.io`
-   (si usas ese formato exacto con tu usuario, la página quedará en
-   `https://tu-usuario.github.io`; con cualquier otro nombre, en
-   `https://tu-usuario.github.io/nombre-repo`).
+1. Crea un repositorio nuevo en GitHub.
 
 2. Sube estos archivos al repositorio:
    ```bash
@@ -79,18 +76,4 @@ Si en el futuro quieres añadir un apartado más (por ejemplo, "News"):
 4. En "Build and deployment", elige **Deploy from a branch**, selecciona la
    rama `main` y la carpeta `/ (root)`. Guarda.
 
-5. Espera un par de minutos y GitHub te mostrará la URL pública del sitio.
-
-## Personalización
-
-- Sustituye los textos entre corchetes `[ ]` en cada página HTML por tu
-  información real (nombre completo, departamento, universidad, líneas de
-  investigación, asignaturas, congresos, publicaciones y datos de contacto).
-- La foto de perfil está en `index.html`, dentro de `.about-grid`:
-  `<img class="portrait" src="images/Foto-perfil.png" alt="...">`. Sube tu
-  foto a `images/` con ese nombre, o cambia el `src` por el nombre que uses.
-- Añade tu CV en PDF en la raíz del repositorio con el nombre `cv.pdf`
-  (o cambia el `href` del enlace en la sección CV).
-- La barra inferior muestra automáticamente la fecha del día en que se carga
-  la página. Si prefieres una fecha fija de "última actualización", edita la
-  constante `LAST_UPDATED` en `script.js`.
+5. Espera un par de minutos y GitHub te mostrará la URL pública del sitio
