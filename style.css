@@ -123,8 +123,20 @@ a {
   height: 260px;
   background: linear-gradient(160deg, #e4e4e4, #cfcfcf);
   object-fit: cover;
-  position: left;
   display: block;
+}
+
+.portrait-container {
+  display: inline-block; /* O el ancho que necesites */
+  margin: 0;
+}
+
+.portrait-container figcaption {
+  font-size: 14px;
+  margin-top: 8px;
+  color: var(--muted);
+  font-style: italic;
+  text-align: center; /* Opcional para centrar el pie de foto */
 }
 
 .about-text h1 {
