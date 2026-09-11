@@ -452,9 +452,20 @@ a {
   height: 180px;
 }
 
+
   .cards {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .gallery-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+  .gallery-card .btn {
+    justify-self: start;
   }
 }
 
