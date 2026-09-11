@@ -399,10 +399,11 @@ a {
   margin-bottom: 18px;
 }
 
-/* Contact */
- 
-.contact p {
-  margin-bottom: 18px;
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 8px;
 }
  
 
