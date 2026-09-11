@@ -251,8 +251,6 @@ a {
 }
 
 /* Conferences gallery */
-
-/* Conferences gallery */
  
 .conferences {
   max-width: none;
@@ -283,8 +281,9 @@ a {
   background: var(--bg);
 }
  
-.gallery-card .btn {
+  .gallery-card .btn {
   justify-self: end;
+  align-self: center;   /* centrado verticalmente */
 }
  
 .gallery:last-child .gallery-card:last-child,
