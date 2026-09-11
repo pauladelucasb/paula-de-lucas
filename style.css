@@ -380,6 +380,63 @@ a {
   margin-bottom: 18px;
 }
 
+/* Contact */
+ 
+.contact p {
+  margin-bottom: 18px;
+}
+ 
+/* Contact form */
+ 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 520px;
+  margin-top: 44px;
+}
+ 
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+ 
+.contact-form label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+ 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.1rem;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+}
+ 
+.contact-form textarea {
+  resize: vertical;
+  min-height: 220px;
+}
+ 
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-color: var(--accent);
+}
+ 
+.contact-form button {
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
 /* ---------- Footer / date bar ---------- */
 
 .footer {
