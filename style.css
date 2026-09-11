@@ -124,11 +124,13 @@ a {
   background: linear-gradient(160deg, #e4e4e4, #cfcfcf);
   object-fit: cover;
   display: block;
+  margin: 0 auto;      
 }
 
 .portrait-container {
-  display: inline-block; /* O el ancho que necesites */
-  margin: 0;
+  display: block;       
+  margin: 0 auto;
+  text-align: center;   
 }
 
 .portrait-container figcaption {
@@ -445,10 +447,10 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .portrait {
-    width: 120px;
-    height: 120px;
-  }
+ .portrait {
+  width: 180px;  
+  height: 180px;
+}
 
   .cards {
     grid-template-columns: 1fr;
