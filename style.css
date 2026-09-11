@@ -155,14 +155,14 @@ a {
 }
 
 .cards {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(180px,2, 1fr);
   display: grid;
   gap: 32px;
   margin-top: 40px;
 }
 
 .card {
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(180px,2, 1fr);
   border-top: 2px solid var(--accent);
   padding-top: 18px;
 }
