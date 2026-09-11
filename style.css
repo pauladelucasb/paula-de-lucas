@@ -177,6 +177,8 @@ a {
   font-weight: 600;
   color: var(--accent);
   margin: 0 0 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .card p {
