@@ -45,31 +45,32 @@
       <a href="mailto:pd758@georgetown.edu" target="_blank" rel="noopener">Email</a>
     </p>
 
-    <form class="contact-form" action="https://formspree.io/f/xdeojwbn" method="POST">
-      <input type="hidden" name="_next" value="thanks.html">
+<form class="contact-form" action="https://formspree.io/f/xdeojwbn" method="POST">
+  <!-- Usa la URL absoluta o relativa correcta para GitHub Pages -->
+  <input type="hidden" name="_next" value="https://pauladelucasb.github.io/paula-de-lucas/thanks.html">
 
-      <div class="field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+  <div class="field">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
 
-      <div class="field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
 
-      <div class="field">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="_subject" required>
-      </div>
+  <div class="field">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="_subject" required>
+  </div>
 
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-      </div>
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </div>
 
-      <button type="submit" class="btn">Send</button>
-    </form>
+  <button type="submit" class="btn">Send</button>
+</form>
     
   </section>
 </main>
