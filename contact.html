@@ -45,38 +45,44 @@
       <a href="mailto:pd758@georgetown.edu" target="_blank" rel="noopener">Email</a>
     </p>
 
-<form class="contact-form" action="pd758@georgetown.edu" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-  
-  <div class="field">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="Name" required>
-  </div>
 
-  <div class="field">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="Email" required>
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <div class="field">
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="Subject" required>
-  </div>
+<main>
+  <section>
+    <h2>Contáctanos</h2>
 
-  <div class="field">
-    <label for="message">Message</label>
-    <textarea id="message" name="Message" rows="6" required></textarea>
-  </div>
+    <!-- El action ahora apunta a enviar.php y el método es POST -->
+    <form class="contact-form" action="enviar.php" method="POST">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" required>
+      </div>
 
-  <button type="submit" class="btn">Send</button>
-</form>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required>
+      </div>
 
-<!-- Iframe oculto para capturar la respuesta y redirigir -->
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='thanks.html'; }"></iframe>
+      <div class="field">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="Subject" required>
+      </div>
 
-<script>
-  let submitted = false;
-</script>
-    
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" rows="6" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+
   </section>
 </main>
 
