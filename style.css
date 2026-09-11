@@ -119,11 +119,11 @@ a {
 }
 
 .portrait {
-  width: 240px;
-  height: 240px;
+  width: 260px;
+  height: 260px;
   background: linear-gradient(160deg, #e4e4e4, #cfcfcf);
   object-fit: cover;
-  align-items: center;
+  position: left;
   display: block;
 }
 
