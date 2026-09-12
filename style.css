@@ -7,7 +7,7 @@
   --bg: #f8f9fb;
   --surface: #eef1f5;
   --accent: #7b2d26;
-  --max-width: 860px;
+  --max-width: 1100px;
 }
 
 * { box-sizing: border-box; }
@@ -191,7 +191,8 @@ a {
   grid-template-columns: repeat(2, 1fr);
   display: grid;
   gap: 32px;
-  margin-top: 40px;
+  max-width: 1100px;
+  margin: 40px auto 0;
   padding-left: 32px;
   padding-right: 32px;
 }
