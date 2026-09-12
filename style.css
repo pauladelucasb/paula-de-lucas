@@ -165,6 +165,10 @@ a {
   margin: 0 0 6px;
 }
 
+.about-text p {
+  max-width: none;
+}
+
 .role {
   color: var(--muted);
   font-style: italic;
@@ -174,27 +178,11 @@ a {
 
 /* Research */
 
-.research {
-  max-width: none;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.research h2,
-.research > p {
-  max-width: var(--max-width);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .cards {
   grid-template-columns: repeat(2, 1fr);
   display: grid;
   gap: 32px;
-  max-width: 1100px;
-  margin: 40px auto 0;
-  padding-left: 32px;
-  padding-right: 32px;
+  margin-top: 40px;
 }
 
 .card {
@@ -270,23 +258,9 @@ a {
 
 /* Conferences gallery */
 
-.conferences {
-  max-width: none;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.conferences h2 {
-  max-width: var(--max-width);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .gallery {
   display: flex;
   flex-direction: column;
-  max-width: 1100px;
-  margin: 0 auto;
 }
 
 .gallery-card {
