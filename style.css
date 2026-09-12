@@ -141,11 +141,13 @@ a {
   background: linear-gradient(160deg, #e4e4e4, #cfcfcf);
   object-fit: cover;
   display: block;
+  margin: 0 auto;      /* ← nuevo: centra la foto */
 }
 
 .portrait-container {
-  display: inline-block; /* O el ancho que necesites */
-  margin: 0;
+  display: block;       /* antes: inline-block */
+  margin: 0 auto;
+  text-align: center;    /* ← nuevo */
 }
 
 .portrait-container figcaption {
@@ -470,14 +472,24 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .portrait {
-    width: 120px;
-    height: 120px;
-  }
+.portrait {
+  width: 180px;   /* antes: 120px — un poco más grande */
+  height: 180px;
+}
 
   .cards {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .gallery-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+  .gallery-card .btn {
+    justify-self: start;
   }
 }
 
